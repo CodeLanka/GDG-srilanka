@@ -1,0 +1,26 @@
+<h1>{{title}}</h1>
+<p>{{body}}</p>
+
+<hr>
+<div>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description Link</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat=" event in events">
+          <td>
+            <a href="#/event/{{event.id}}">
+              {{event.name}}   
+            </a>  
+          </td>
+          <td> {{event.description_link}} </td>
+          <td> {{event.date}} </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+<p>{{body}}</p>
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>Agenda No</th>
+      <th>Speaker</th>
+      <th>Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat= "presentation in presentations">
+      <td>
+        <a href="{{basePresoPath}}/{{presentation.id}}">
+          {{presentation.agenda_no}}</a>
+      </td>
+      <td> {{presentation.speaker}} </td>
+      <td> {{presentation.name}} </td>
+    </tr>
+  </tbody>
+</table>
