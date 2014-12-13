@@ -2,25 +2,25 @@
 	"events":[
 		{
 			"id":0,
-			"name":"DevFest 2013",
-			"url_slug":"devfest-2013",
+			"name":"DevFest 2014",
+			"url_slug":"devfest-2014",
 			"description_link":"",
 			"date":"29-11-2014",
 			"presentations":[
 				{
 					"id":0,
-					"speaker":"Pasindu De Silva",
-					"url_slug":"gdg-presentation",
-					"name":"GDG Presentation",
+					"speaker":"Anjana Somathilake",
+					"url_slug":"inside-android",
+					"name":"Inside Android",
 					"agenda_no":1,
-					"content":"posts/devfest2014/pasindu"
+					"content":"content/gdg-devfest-2014/inside-android.md"
 				},{
 					"id":1,
-					"speaker":"Test 2",
-					"url_slug":"test-presentation-2",
-					"name":"Test Presentation 2",
+					"speaker":"Arunoda Susiripala",
+					"url_slug":"modern-web-apps-end-users",
+					"name":"Modern Web Apps End Users",
 					"agenda_no":2,
-					"content":"posts/devfest2014/test2"
+					"content":"content/gdg-devfest-2014/modern-web-apps-end-users.md"
 				}
 			]
 		}

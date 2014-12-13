@@ -1,26 +1,27 @@
-<h1>{{title}}</h1>
+<h3>{{title}}</h3>
 <p>{{body}}</p>
 
-<hr>
 <div>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Description Link</th>
-          <th>Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr ng-repeat=" event in events">
-          <td>
+  <div class="container">
+      <hr>
+      <div class="panel panel-default" ng-repeat="event in events">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+              {{event.name}} - 
             <a href="#/event/{{event.id}}">
-              {{event.name}}   
-            </a>  
-          </td>
-          <td> {{event.description_link}} </td>
-          <td> {{event.date}} </td>
-        </tr>
-      </tbody>
-    </table>
+              Link
+            </a>
+          </h3>
+        </div>
+        <div class="panel-body">
+           <ul ng-repeat="presentation in event.presentations">
+            <li> 
+              <a href="#/event/preso/{{event.id}}/{{presentation.id}}"> 
+                {{presentation.name}} </a>  
+              - {{presentation.speaker}} 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>  
 </div>
