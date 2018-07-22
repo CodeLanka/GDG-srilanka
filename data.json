@@ -23,6 +23,115 @@
 					"content":"content/gdg-devfest-2014/modern-web-apps-end-users.md"
 				}
 			]
+		},
+		{
+			"id":1,
+			"name":"GDG Cloud Sri Lanka - GCC September Workshop",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/243147756/",
+			"url_slug":"gcc-september-workshop",
+			"description_link":"",
+			"date":"9-9-2017",
+			"presentations":[{
+					"id":0,
+					"speaker":"Kasun Delgolla",
+					"url_slug":"",
+					"name":"Deploying apps on Google AppEngine",
+					"agenda_no":1,
+					"content":""
+			},{
+					"id":1,
+					"speaker":"Malith Hatananchchige",
+					"url_slug":"",
+					"name":"Google Compute Engine Essentials",
+					"agenda_no":2,
+					"content":""
+
+			}]
+		},
+		{
+			"id":2,
+			"name":"GDG Cloud Sri Lanka - GCP Intro for Dialog Engineering",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/243651796/",
+			"url_slug":"gcp-intro-for-dialog-engineering",
+			"description_link":"",
+			"date":"26-9-2017",
+			"presentations":[]
+		},
+		{
+			"id":3,
+			"name":"GDG Cloud Sri Lanka - DevFest 2017",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/243365028/",
+			"url_slug":"gdg-gcc-lk-devfest-2017",
+			"description_link":"",
+			"date":"8-10-2017",
+			"presentations":[]
+		},
+		{
+			"id":4,
+			"name":"GDG Cloud Sri Lanka - GDG Cloud Sri Lanka December Workshop",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/246004536/",
+			"url_slug":"gdg-cloud-lk-december-workshop",
+			"description_link":"",
+			"date":"27-12-2017",
+			"presentations":[{
+					"id":0,
+					"speaker":"Allen Day",
+					"url_slug":"",
+					"name":"ML APIs",
+					"agenda_no":1,
+					"content":""
+			}]
+		},
+		{
+			"id":5,
+			"name":"GDG Cloud Sri Lanka - Cloud Study Jam 2017",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/246437279/",
+			"url_slug":"cloud-study-jam-2017",
+			"description_link":"",
+			"date":"13-1-2018",
+			"presentations":[{
+					"id":0,
+					"speaker":"",
+					"url_slug":"",
+					"name":"Three Google Cloud Platform Essentials labs",
+					"agenda_no":1,
+					"content":""
+			},{
+					"id":1,
+					"speaker":"",
+					"url_slug":"",
+					"name":"Three Intro to Docker",
+					"agenda_no":2,
+					"content":""
+			}]
+		},
+		{
+			"id":6,
+			"name":"GDG Cloud Sri Lanka - Cloud Study Jam May 2018",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/250073148/",
+			"url_slug":"cloud-study-jam-may-2018",
+			"description_link":"",
+			"date":"5-3-2018",
+			"presentations":[]
+		},
+		{
+			"id":7,
+			"name":"GDG Cloud Sri Lanka - Google IO 2018 Extended Sri Lanka",
+			"event_link": "https://www.meetup.com/GDG-Cloud-Sri-Lanka/events/250072972/",
+			"url_slug":"google-io-2018-extended-sri-lanka",
+			"description_link":"",
+			"date":"8-3-2018",
+			"presentations":[]
 		}
 	]
 }
+
+
+
+
+
+
+
+
+
+

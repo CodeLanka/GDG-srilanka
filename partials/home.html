@@ -11,13 +11,18 @@
             <a href="#/event/{{event.id}}">
               Link
             </a>
+            -
+            <a target="_blank" href="{{event.event_link}}">
+              Event Link
+            </a>
           </h3>
         </div>
         <div class="panel-body">
            <ul ng-repeat="presentation in event.presentations">
             <li> 
               <a href="#/event/preso/{{event.id}}/{{presentation.id}}"> 
-                {{presentation.name}} </a>  
+                {{presentation.name}}
+              </a>  
               - {{presentation.speaker}} 
             </li>
           </ul>
